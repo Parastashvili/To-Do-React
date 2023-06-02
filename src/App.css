@@ -1,38 +1,74 @@
-.App {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=Russo+One&display=swap");
+.daytext {
+  font-family: "Russo One", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #ffffff;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.hours {
+  font-family: "Russo One", sans-serif;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 58px;
+  color: #ffffff;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.backgroundImg {
+  background-image: url(./Rectangle\ 2.svg);
+  background-size: cover;
+  padding: 13px 28px;
+  width: 374px;
+  height: 176px;
   display: flex;
   flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+.list {
+  padding: 23px 29px;
+  padding-bottom: 36px;
+  background-color: #ffffff;
+}
+.inputField {
+  outline: none;
+  width: 208px;
+  height: 25px;
+  background: #ebeff2;
+  border-radius: 0px 5px 5px 0px;
+  border-width: 0px;
+  padding: 12px 14px;
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #888888;
+}
+.addButton {
+  width: 88px;
+  height: 49px;
+  background: #20eeb0;
+  border-radius: 5px;
+  border-width: 0px;
+  color: #ffffff;
+  font-size: 26px;
+  display: flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin-left: 10px;
+  user-select: none;
+  cursor: pointer;
 }
-
-.App-link {
-  color: #61dafb;
+.inputContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.tasks {
+  background-color: white;
+  padding: 0px 29px;
+  gap: 24px;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 36px;
+  border-radius: 0px 0px 10px 10px;
 }

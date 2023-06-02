@@ -1,0 +1,39 @@
+.deleteBTN {
+  border-width: 0px;
+  background-color: transparent;
+  cursor: pointer;
+}
+.icons {
+  display: flex;
+  align-content: center;
+  justify-content: flex-end;
+  gap: 14px;
+}
+.taskAndTime {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-self: flex-start;
+}
+.listCont {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.taskName {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: #0d0d0d;
+  text-transform: capitalize;
+}
+.taskTime {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #888888;
+}
